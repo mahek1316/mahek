@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patient Registration | Hospital</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="top-nav">
+    <div class="logo">
+        <i class="fa-solid fa-heart-pulse"></i>
+        <span>LifeLine Hospital</span>
+    </div>
+    <ul>
+        <li>Home</li>
+        <li>Services</li>
+        <li>Doctors</li>
+        <li>Contact</li>
+    </ul>
+</nav>
+
+<section class="registration-section">
+
+    <div class="left-panel">
+        <h1>Patient Registration</h1>
+        <p>Fast • Secure • Reliable Healthcare Services</p>
+
+        <img src="https://images.unsplash.com/photo-1584515933487-779824d29309">
+    </div>
+
+    <div class="right-panel">
+        <h2>Register Here</h2>
+
+        <form class="reg-form">
+
+            <div class="field">
+                <label><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" placeholder="Enter patient name">
+            </div>
+
+            <div class="field">
+                <label><i class="fa fa-calendar"></i> Date of Birth</label>
+                <input type="date">
+            </div>
+
+            <div class="field">
+                <label><i class="fa fa-phone"></i> Contact Number</label>
+                <input type="tel" placeholder="Mobile number">
+            </div>
+
+            <div class="field">
+                <label><i class="fa fa-venus-mars"></i> Gender</label>
+                <select>
+                    <option>Select</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label><i class="fa fa-hospital-user"></i> Department</label>
+                <select>
+                    <option>General</option>
+                    <option>ENT</option>
+                    <option>Cardiology</option>
+                    <option>Orthopedic</option>
+                </select>
+            </div>
+
+            <button class="submit-btn">Register Patient</button>
+        </form>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 LifeLine Hospital | Patient Care System</p>
+</footer>
+
+</body>
+</html>

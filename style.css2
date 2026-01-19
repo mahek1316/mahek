@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:#eef2f5;
+}
+
+/* NAVBAR */
+.top-nav{
+    background:#1f2933;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:15px 40px;
+    align-items:center;
+}
+
+.top-nav .logo{
+    font-size:22px;
+    font-weight:600;
+}
+
+.top-nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+.top-nav ul li{
+    cursor:pointer;
+}
+
+/* MAIN SECTION */
+.registration-section{
+    display:flex;
+    min-height:85vh;
+}
+
+/* LEFT PANEL */
+.left-panel{
+    width:45%;
+    background:linear-gradient(120deg,#0ea5e9,#0284c7);
+    color:white;
+    padding:60px 40px;
+}
+
+.left-panel h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.left-panel p{
+    margin-bottom:30px;
+}
+
+.left-panel img{
+    width:100%;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.3);
+}
+
+/* RIGHT PANEL */
+.right-panel{
+    width:55%;
+    background:white;
+    padding:60px 80px;
+}
+
+.right-panel h2{
+    color:#0284c7;
+    margin-bottom:25px;
+}
+
+/* FORM */
+.reg-form .field{
+    margin-bottom:15px;
+}
+
+.reg-form label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:500;
+}
+
+.reg-form input,
+.reg-form select{
+    width:100%;
+    padding:10px;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+.submit-btn{
+    margin-top:20px;
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#0284c7;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.submit-btn:hover{
+    background:#0369a1;
+}
+
+/* FOOTER */
+footer{
+    background:#1f2933;
+    color:white;
+    text-align:center;
+    padding:12px;
+}
